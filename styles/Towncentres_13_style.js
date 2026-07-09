@@ -9,7 +9,7 @@ var style_Towncentres_13 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("''");
-    var labelFont = "6.5px \'Open Sans\', sans-serif";
+    var labelFont = "9.1px \'Open Sans\', sans-serif";
     var labelFill = "#323232";
     var bufferColor = "";
     var bufferWidth = 0;

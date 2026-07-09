@@ -23,7 +23,7 @@ var style_TVETCentres_16 = function(feature, resolution){
     var style = [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [2035, 2016],
-                  scale: 0.007371007371007371,
+                  scale: 0.005896805896805897,
                   anchor: [1017.5, 1008.0],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",

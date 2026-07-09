@@ -8,7 +8,7 @@ function categories_SchoolssupportedbyWB_14(feature, value, size, resolution, la
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [2035, 2016],
-                  scale: 0.007371007371007371,
+                  scale: 0.005405405405405406,
                   anchor: [1017.5, 1008.0],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
@@ -24,7 +24,7 @@ case 'Full Support - Hostel+SWASH+D4E':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [2035, 2016],
-                  scale: 0.007371007371007371,
+                  scale: 0.005405405405405406,
                   anchor: [1017.5, 1008.0],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
@@ -40,7 +40,7 @@ case 'SWASH+D4E':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [2035, 2016],
-                  scale: 0.007371007371007371,
+                  scale: 0.005405405405405406,
                   anchor: [1017.5, 1008.0],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
@@ -56,7 +56,7 @@ case 'SWASH+Other support':
                     return [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [2035, 2016],
-                  scale: 0.007371007371007371,
+                  scale: 0.005405405405405406,
                   anchor: [1017.5, 1008.0],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
@@ -77,10 +77,10 @@ var style_SchoolssupportedbyWB_14 = function(feature, resolution){
     
     var labelText = ""; 
     var value = feature.get("Supported");
-    var labelFont = "10px, sans-serif";
-    var labelFill = "#000000";
-    var bufferColor = "";
-    var bufferWidth = 0;
+    var labelFont = "9.1px \'Open Sans\', sans-serif";
+    var labelFill = "#323232";
+    var bufferColor = "#fafafa";
+    var bufferWidth = 3.0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
